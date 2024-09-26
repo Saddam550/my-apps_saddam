@@ -9,14 +9,37 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@fontsource/krona-one": "^5.0.13",
+    "@studio-freight/react-lenis": "^0.0.47",
+    "aos": "^2.3.4",
+    "emailjs": "^4.0.3",
+    "framer-motion": "^11.3.30",
+    "gsap": "^3.12.5",
+    "ldrs": "^1.0.2",
+    "locomotive-scroll": "^4.1.4",
+    "next": "14.2.5",
+    "next-image-export-optimizer": "^1.14.1",
     "react": "^18",
+    "react-animated-rating": "^1.2.0",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-hover-video-player": "^10.0.2",
+    "react-icons": "^5.2.1",
+    "smooth-scrollbar": "^8.8.4",
+    "swiper": "^11.1.8"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@types/node": "22.4.2",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
-  }
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "tailwind.config.js",
+  "keywords": [
+    "portfoilow"
+  ],
+  "author": "saddam hossen",
+  "license": "ISC"
 }
