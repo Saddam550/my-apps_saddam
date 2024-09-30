@@ -47,7 +47,7 @@ export default function From() {
         (error) => {
           console.log(error)
           setSuccess(
-            ' Your message unsuccessfull send please try ageing '
+            ' Your message unsuccessfull send please try again '
           )
         }
       )

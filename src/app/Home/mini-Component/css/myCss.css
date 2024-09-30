@@ -103,7 +103,10 @@ img.h-\[180px\].singleImage:hover {
   opacity: 0.5;
 }
 
-
+.myImage{
+  width: 350px;
+  height: 350px;
+}
 
 /* motion style  */
 .mask,
@@ -189,7 +192,14 @@ svg.projectLink:hover {
   height: 100%;
 }
 
-
+.md\:w-96.lg\:w-\[320px\].xl\:w-\[481px\].h-\[280px\].rounded.overflow-hidden.pb-3.px-12.aos-init.aos-animate {
+  transition: all 0.3s;
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px #00000000, -20px -20px 60px #000000;
+}.md\:w-96.lg\:w-\[320px\].xl\:w-\[481px\].h-\[280px\].rounded.overflow-hidden.pb-3.px-12.aos-init.aos-animate:hover {
+  border-radius: 0;
+  box-shadow: none;
+}
 
 /* slider style================================= */
 

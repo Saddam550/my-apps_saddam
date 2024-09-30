@@ -1,6 +1,7 @@
 'use client'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect } from 'react'
 import Navber from './Navber'
@@ -24,7 +25,10 @@ export default function Header() {
       </span>
       <div className="container  mx-auto px-20   responsive_header_container lg:pt-44 ">
         <div className="flex justify-between items-center lg:flex-row  responsive_header">
-          <div className="w-1/2 md:w-full sm:w-full responsive_header_Width "  data-aos="fade-right">
+          <div
+            className="w-1/2 md:w-full sm:w-full responsive_header_Width "
+            data-aos="fade-right"
+          >
             <div className="">
               <h1 className="text-4xl bold">
                 Hi, I am Saddam <br />
@@ -70,12 +74,16 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="myImage"  data-aos="fade-up-left">
-            <img
-
-
+          <div className="myImage" data-aos="fade-up-left">
+            <Image
+            className='w-[100%] h-[100%]'
+              width={100}
+              height={100}
               src="/saddam_Logo.png"
               alt="SADDAM"
+              unoptimized="true"
+              loading='lazy'
+
             />
 
             {/* <div className='absolute  rotate-180 w-7 h-7 lg:left-[-131%] md:d' >

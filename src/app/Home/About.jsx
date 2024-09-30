@@ -19,11 +19,12 @@ export default function About() {
 
         className='w-[100%]'
           src="/About.gif"
-          alt=""
+          alt="saddam hossen skill"
           width={100}
           height={100}
           loading="lazy"
 
+          unoptimized={true}
 
         />
       </div>
