@@ -104,10 +104,18 @@ img.h-\[180px\].singleImage:hover {
 }
 
 .myImage{
-  width: 350px;
-  height: 350px;
+  width: 600px;
+  height: 600px;
+
 }
 
+
+.myImage img::after{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:black;
+}
 /* motion style  */
 .mask,
 .des {

@@ -23,7 +23,7 @@ export default function Header() {
       <span>
         <Navber />
       </span>
-      <div className="container  mx-auto px-20   responsive_header_container lg:pt-44 ">
+      <div className="container  mx-auto px-20   responsive_header_container ">
         <div className="flex justify-between items-center lg:flex-row  responsive_header">
           <div
             className="w-1/2 md:w-full sm:w-full responsive_header_Width "
