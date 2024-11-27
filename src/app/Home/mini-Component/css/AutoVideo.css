@@ -165,13 +165,14 @@ height:368.9px;
       left: 19px;
   }
 
-  .left-container-arrow,  .right-container-arrow {
-      border-right: 15px solid white;
-      border-left: 0;
-      left: -10px;
+
+  .left-container-arrow,
+  .right-container-arrow {
+    border-right: 15px solid white;
+    border-left: 0;
+    left: -14px;
   }
 }
-
 
 
 
