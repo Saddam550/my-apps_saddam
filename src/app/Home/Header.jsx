@@ -79,7 +79,7 @@ export default function Header() {
             className='w-[100%] h-[100%]'
               width={100}
               height={100}
-              src="/saddam_Logo.png"
+              src="/saddam_Logos.png"
               alt="SADDAM"
               unoptimized="true"
               loading='lazy'
