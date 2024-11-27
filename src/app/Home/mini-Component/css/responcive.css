@@ -182,10 +182,10 @@
 
   }
 
-  .fqaShow:nth-child(2) {
-    height: 100px;
-
+ .fqaShow:nth-child(2) {
+    height: 182px !important;
   }
+
 
   .fqaShow:nth-child(2):nth-child(3) {
     height: 150px;
