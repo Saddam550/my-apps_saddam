@@ -24,7 +24,7 @@ export default function ProjuctImage({
   return (
     <div data-aos="zoom-in"  className="md:w-96 lg:w-[320px] xl:w-[350px] h-[100%] rounded-t overflow-hidden reletoves">
       <div className="w-[100%] h-[100%]">
-        <Link target="_blank " className="singleImageLink" href={Project_behance_link}>
+        <Link target="_blank " className="singleImageLink" href={Project_live_link}>
           <Image className="h-[180px] singleImage" src={image} alt=""></Image>
         </Link>
       </div>
