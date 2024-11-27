@@ -48,6 +48,12 @@ export default function Home() {
         <From />
         <Footer />
         <Top_btn />
+        <>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla neque,
+          exercitationem, deserunt blanditiis tempore natus quod, ipsum ratione
+          autem laborum impedit molestiae reprehenderit maxime doloribus earum
+          cumque pariatur ea! Eius?
+        </>
       </div>
     </main>
   )
