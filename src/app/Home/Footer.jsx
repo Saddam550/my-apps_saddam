@@ -89,13 +89,6 @@ export default function Footer() {
             </span>
           </Link>
         </div>
-        <div className="flex gap-3 mt-1 items-center hover:text-emerald-300">
-          <Link href="/" alt="">
-            <span>
-              <FaTelegram />
-            </span>
-          </Link>
-        </div>
       </div>
     </div>
   )
