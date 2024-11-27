@@ -14,25 +14,25 @@ import Service from './Home/Service'
 import Skills from './Home/Skills'
 import Scrollbar from 'smooth-scrollbar'
 
-var scrollPositionX = 0
-var scrollPositionY = 0
+// var scrollPositionX = 0
+// var scrollPositionY = 0
 
-function smoothScrollbarInit() {
-  var bodyScroll = document.getElementById('my-scrollbar')
+// function smoothScrollbarInit() {
+//   var bodyScroll = document.getElementById('my-scrollbar')
 
-  bodyScrollBar = Scrollbar.init(bodyScroll, {
-    damping: 0.04,
-    renderByPixels: !('ontouchstart' in document),
-    delegateTo: document,
-  })
+//   bodyScrollBar = Scrollbar.init(bodyScroll, {
+//     damping: 0.04,
+//     renderByPixels: !('ontouchstart' in document),
+//     delegateTo: document,
+//   })
 
-  bodyScrollBar.addListener(({ offset }) => {
-    scrollPositionX = offset.x
-    scrollPositionY = offset.y
-  })
-}
+//   bodyScrollBar.addListener(({ offset }) => {
+//     scrollPositionX = offset.x
+//     scrollPositionY = offset.y
+//   })
+// }
 
-smoothScrollbarInit()
+// smoothScrollbarInit()
 export default function Home() {
   return (
     <main className="bg overflow-hidden" id="my-scrollbar">
